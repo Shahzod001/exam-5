@@ -1,0 +1,111 @@
+/* Hero section start */
+.hero {
+    padding: 128px 0 158px 0;
+    background-image: url("../images/hero-people-img.png"), url("../images/her-bg-img.svg");
+    background-repeat: no-repeat;
+    background-size: 675px 590px, cover;
+    background-position: calc(50% + 275px) calc(50% - 20px), center;
+}
+.container-additional {
+    padding: 0 80px 0 80px;
+}
+.hero__part {
+    max-width: 527px;
+}
+.hero__part-top-text {
+    margin: 0;
+    margin-bottom: 31px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155.2%;
+    color: #E87D0E;
+}
+.hero__part-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 155.2%;
+    color: #000000;
+}
+.hero__part-text {
+    margin: 0;
+    font-weight: 500;
+    line-height: 200%;
+    color: #000000;
+}
+.hero__part-link {
+    padding: 14px 31px 15px 30px;
+    font-weight: 500;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;
+}
+@media only screen and (max-width:1285px) {
+    .hero {
+        background-position: calc(50% + 275px) calc(50% - 20px), center;
+    }
+}
+@media only screen and (max-width:1150px) {
+    .hero {
+        background-position: calc(50% + 225px) calc(50% - 20px), center;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .hero {
+        background-position: calc(50% + 225px) calc(50% - 20px), calc(50% - 70px) calc(50% + 0px);
+    }
+}
+@media only screen and (max-width:1060px) {
+    .hero {
+        background-position: calc(50% + 205px) calc(50% - 20px), calc(50% - 70px) calc(50% + 0px);
+    }
+}
+@media only screen and (max-width:1020px) {
+    .hero {
+        padding: 108px 0;
+        background-image: url("../images/hero-mobile-bg-img.svg");
+        background-size: contain;
+        background-position: calc(50% - 0px) calc(50% + 260px);
+    }
+    .container-additional {
+        padding: 0 50px 0 50px;
+    }
+    .under-hero .container-additional {
+        padding: 0 40px 0 40px;
+    }
+    .development .container-additional {
+        padding: 0 30px 0 30px;
+    }
+    .project .container-additional {
+        padding: 0 22px 0 21px;
+    }
+    .information .container-additional {
+        padding: 0 28px 0 35px;
+    }
+    .form-section .container-additional {
+        padding: 0 34px 0 22px;
+    }
+    .hero__part-text {
+        margin-bottom: 31px;
+    }
+    .hero__part-text {
+        margin: 28px 0 35px 0 !important;
+    }
+    .hero__part-link {
+        padding: 13px 18px 12px 22px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .hero__part-title {
+        font-size: 34px;
+        line-height: 155.2%;
+    }
+    .hero__part-text {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:460px) {
+    .hero {
+        background-position: bottom;
+    }
+}
+/* Hero section finish */

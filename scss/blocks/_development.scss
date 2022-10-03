@@ -1,0 +1,105 @@
+/* Development section start */
+.development {
+    padding: 165px 0 134px 0;
+}
+.section-text {
+    margin: 0;
+    line-height: 187.5%;
+    text-align: center;
+    color: #525252;
+}
+.development__list {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.section-title-box {
+    max-width: 836px;
+    margin: 0px auto;
+    text-align: center;
+}
+.section-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    margin: 0px;
+}
+.development__item {
+    margin-bottom: 62px;
+    &:nth-child(5),
+    &:nth-child(6) {
+        margin-bottom: 0;
+    }
+    &::before {
+        display: block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto 30px auto;
+        background-image: url("../images/mobile-game-development.svg");
+        background-repeat: no-repeat;
+        content: "";
+    }
+    &:nth-child(2)::before {
+        background-image: url("../images/pc-game-development.svg");
+    }
+    &:nth-child(3)::before {
+        background-image: url("../images/ps4-game-development.svg");
+    }
+    &:nth-child(4)::before {
+        background-image: url("../images/ar-vr-solution.svg");
+    }
+    &:nth-child(5)::before {
+        background-image: url("../images/ar-vr-design.svg");
+    }
+    &:nth-child(6)::before {
+        background-image: url("../images/3d-modeling.svg");
+    }
+}
+.development__list-link {
+    @include link-unstyle;
+    &::after {
+        display: block;
+        width: 21px;
+        height: 21px;
+        margin: 24px auto 0 auto;
+        background-image: url("../../images/arrow.svg");
+        background-repeat: no-repeat;
+        content: "";
+    }
+}
+.development__item-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 187.5%;
+    color: #000000;
+}
+@media only screen and (max-width:992px) {
+    .development__item {
+        &:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
+}
+@media only screen and (max-width:768px) {
+    .development__item {
+
+        &:nth-child(4),
+        &:nth-child(5) {
+            margin-bottom: 65px;
+        }
+    }
+}
+@media only screen and (max-width:576px) {
+    .development__top-title {
+        font-size: 20px;
+    }
+    .development__list {
+        margin-top: 106px;
+    }
+    .development__item {
+        margin-bottom: 65px;
+    }
+}
+/* Development section finish */

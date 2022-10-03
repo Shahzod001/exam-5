@@ -1,0 +1,108 @@
+/* Under-hero section start */
+.under-hero__part {
+    padding-top: 83px;
+}
+.under-hero__wrapper {
+    max-width: 836px;
+    margin: 0 auto;
+}
+.under-hero__heading {
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    text-align: center;
+    color: #222222;
+}
+.under-hero__info-box {
+    max-width: 545px;
+    margin: 49px 0 46px 0;
+}
+.under-hero__info-box-title {
+    margin: 0 0 32px 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+    color: #222222;
+}
+.under-hero__info-box-text {
+    line-height: 187.5%;
+    color: #525252;
+}
+.under-hero__box {
+    position: relative;
+    max-width: 934px;
+}
+.under-hero__img {
+    position: relative;
+    z-index: 5;
+    max-width: x934px;
+    width: 100%;
+}
+.under-hero__img-dec {
+    position: absolute;
+    top: -68px;
+    right: -88px;
+}
+@media only screen and (max-width:1150px) {
+    .under-hero__box {
+        max-width: 734px;
+    }
+}
+@media only screen and (max-width:1050px) {
+    .under-hero__box {
+        max-width: 634px;
+    }
+}
+@media only screen and (max-width:826px) {
+    .under-hero__box {
+        max-width: 534px;
+    }
+    .under-hero__img-dec {
+        top: -58px;
+        right: -58px;
+        width: 130px;
+        height: 130px;
+    }
+}
+@media only screen and (max-width:690px) {
+    .under-hero__box {
+        max-width: 434px;
+    }
+    .under-hero__box {
+        max-width: 434px;
+    }
+}
+@media only screen and (max-width:596px) {
+    .under-hero__part {
+        padding-top: 48px!important;
+    }
+
+    .under-hero__full-info {
+        position: relative;
+        margin-top: 66px;
+    }
+    .under-hero__top-title {
+        font-size: 16px;
+    }
+    .under-hero__info-box {
+        display: none;
+    }
+    .under-hero__box {
+        position: relative;
+        top: 0;
+        left: -60px;
+        width: 309px;
+    }
+    .under-hero__img {
+        max-width: 309px;
+        height: 188px;
+    }
+    .under-hero__img-dec {
+        top: -25px;
+        right: -25px;
+        width: 79px;
+        height: 62px;
+    }
+}
+/* Under-hero section finish */
