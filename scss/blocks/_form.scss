@@ -1,0 +1,125 @@
+/* Form section start */
+.form-section {
+    padding-top: 125px;
+}
+
+.form__title-box {
+    max-width: 545px;
+    margin: 0;
+}
+
+.form__top-title {
+    font-size: 30px;
+    text-align: left;
+}
+
+.form-text {
+    font-size: 16px;
+    margin-top: 32px;
+    text-align: left;
+}
+
+.main-form-box {
+    margin: 74px 0 0 0;
+    padding: 40px 50px 42px 56px;
+    background-color: #1B1B1B;
+}
+
+.main-form__text-box {
+    max-width: 545px;
+    padding-left: 0;
+}
+
+.main-form__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.main-form__text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 26px
+}
+
+.main-form {
+    position: relative;
+    max-width: 386px !important;
+    padding-right: 0;
+}
+
+.main-form__input {
+    width: 100% !important;
+    padding: 14px 145px 14px 20px;
+    background-color: #FFFFFF;
+
+    &::placeholder {
+        font-size: 13px;
+        line-height: 20px;
+        color: #898989;
+    }
+}
+
+.main-form__btn {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    z-index: 5 !important;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: #DC7000;
+    border: none;
+
+    &:hover,
+    &:active {
+        background-color: #DC7000 !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #form-section {
+        padding-top: 49px;
+    }
+
+    .main-form__text-box {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .main-form-box {
+        margin-top: 41px;
+        padding: 30px 22px 23px 21px;
+    }
+
+    .main-form__text {
+        font-size: 15px;
+    }
+
+    .main-form {
+        margin-top: 43px;
+        max-width: 100% !important;
+        padding-left: 0;
+    }
+
+    .main-form__input {
+        padding: 14px 20px 14px 15px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .main-form__text-box {
+        max-width: 250px;
+    }
+
+    .form__top-title {
+        font-size: 20px;
+        line-height: 187.5%;
+    }
+
+    .form-text {
+        margin-top: 13px;
+    }
+}
+
+/* Form section finish */
